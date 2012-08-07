@@ -28,18 +28,19 @@
             android:id="@+id/product_add"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="15dp"
+            android:layout_weight="1"
             android:background="#b0d0b0"
             android:text="@string/add_new_product"
+            android:onClick="goAddProduct"
             android:textSize="12dip" />
 
         <Button
             android:id="@+id/product_change"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="15dp"
+            android:layout_weight="1"
             android:background="#b0d0b0"
             android:text="@string/change_product"
             android:textSize="12dip" />
@@ -48,12 +49,11 @@
             android:id="@+id/product_layout"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="15dp"
+            android:layout_weight="1"
             android:background="#b0d0b0"
             android:text="@string/edit_layout"
             android:textSize="12dip" />
-        
     </LinearLayout>
 
     <View
@@ -83,8 +83,8 @@
             android:id="@+id/report_today"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="15dp"
+            android:layout_weight="1"
             android:background="#a09a09"
             android:text="@string/today_report"
             android:textSize="12dip" />
@@ -93,8 +93,8 @@
             android:id="@+id/report_month"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="15dp"
+            android:layout_weight="1"
             android:background="#a09a09"
             android:text="@string/month_report"
             android:textSize="12dip" />
@@ -103,12 +103,11 @@
             android:id="@+id/report_date"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="15dp"
+            android:layout_weight="1"
             android:background="#a09a09"
             android:text="@string/date_report"
             android:textSize="12dip" />
-        
     </LinearLayout>
 
     <View
@@ -138,8 +137,8 @@
             android:id="@+id/setting_email"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="#a0b0e0"
             android:text="@string/email_setting"
             android:textSize="12dip" />
@@ -148,8 +147,8 @@
             android:id="@+id/setting_users"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="#a0b0e0"
             android:text="@string/users_setting"
             android:textSize="12dip" />
@@ -158,8 +157,8 @@
             android:id="@+id/setting_taxes"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="#a0b0e0"
             android:text="@string/taxes_setting"
             android:textSize="12dip" />
@@ -168,12 +167,11 @@
             android:id="@+id/setting_more"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="#a0b0e0"
             android:text="@string/more_setting"
             android:textSize="12dip" />
-        
     </LinearLayout>
 
 </LinearLayout>

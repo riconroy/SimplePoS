@@ -21,9 +21,17 @@
             </intent-filter>
         </activity>
 
-        <!-- Admin Front Page -->
+        <!-- Admin Section -->
+
+
+        <!-- Admin front page -->
 
         <activity android:name=".AdminFront" >
+        </activity>
+
+        <!-- Admin add and edit products -->
+
+        <activity android:name=".AdminAddProduct" >
         </activity>
     </application>
 

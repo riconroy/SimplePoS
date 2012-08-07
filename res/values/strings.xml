@@ -11,6 +11,22 @@
     <string name="change_product">Change or Delete</string>
     <string name="edit_layout">Edit Layout</string>
     
+    <string name="product_add_title">Add New Product</string>
+    <string name="product_description">Description:</string>
+    <string name="product_description_hint">short description</string>
+    <string name="product_code">Code:</string>
+    <string name="product_code_hint">SKU</string>
+    <string name="product_category">Category:</string>
+    <string name="product_category_hint">optional</string>
+    <string name="product_price">Price:</string>
+    <string name="product_price_hint">in form xx.xx</string>
+    <string name="product_tax">Tax:</string>
+    <string name="product_icon">Icon Colour:</string>
+    <string name="radio_yes">Yes</string>
+    <string name="radio_no">No</string>
+    <string name="product_cancel">Cancel</string>
+    <string name="product_save">Save</string>
+    
     <string name="reports">REPORTS</string>
     <string name="today_report">Today</string>
     <string name="month_report">This Month</string>
